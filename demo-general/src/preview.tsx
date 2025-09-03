@@ -26,6 +26,7 @@ const SamplePreview = () => {
 
   async function init() {
     const scenarioName = getScenarioName();
+	debugger;
     const packages = getPackagesFromLocalStorage(scenarioName);
     const projectSchema = getProjectSchemaFromLocalStorage(scenarioName);
     const {

@@ -20,6 +20,9 @@ import SetRefPropPlugin from '@alilc/lowcode-plugin-set-ref-prop';
 import LogoSamplePlugin from './plugins/plugin-logo-sample';
 import SimulatorLocalePlugin from './plugins/plugin-simulator-locale';
 import lowcodePlugin from './plugins/plugin-lowcode-component';
+import DemoPlugin from './plugins/plugin-demo';
+import AndersPlugin from './plugins/anders_plugin/src';
+//import AndersMaterialDemo from './plugins/anders_material_demo/src';
 import appHelper from './appHelper';
 import './global.scss';
 
@@ -51,7 +54,13 @@ async function registerPlugins() {
   await plugins.register(DefaultSettersRegistryPlugin);
 
   await plugins.register(LogoSamplePlugin);
-
+  
+  await plugins.register(DemoPlugin);
+  
+  await plugins.register(AndersPlugin);
+ 
+  //await plugins.register(AndersMaterialDemo); 
+ 
   await plugins.register(ComponentPanelPlugin);
 
   await plugins.register(SchemaPlugin, { isProjectSchema: true });
