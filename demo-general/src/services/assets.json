@@ -73,6 +73,19 @@
         "https://alifd.alicdn.com/npm/@alifd/fusion-ui@2.0.2/build/lowcode/view.js",
         "https://alifd.alicdn.com/npm/@alifd/fusion-ui@2.0.2/build/lowcode/view.css"
       ]
+    },
+    {
+      "package": "anders_material_demo",
+      "version": "0.1.0",
+      "library": "BizComp",
+      "urls": [
+        "/src/plugins/anders_material_demo/build/lowcode/render/default/view.js",
+        "/src/plugins/anders_material_demo/build/lowcode/render/default/view.css"
+      ],
+      "editUrls": [
+        "/src/plugins/anders_material_demo/build/lowcode/view.js",
+        "/src/plugins/anders_material_demo/build/lowcode/view.css"
+      ]
     }
   ],
   "components": [
@@ -107,6 +120,17 @@
       "urls": {
         "default": "https://alifd.alicdn.com/npm/@alifd/fusion-ui@2.0.2/build/lowcode/meta.js",
         "design": "https://alifd.alicdn.com/npm/@alifd/fusion-ui@2.0.2/build/lowcode/meta.design.js"
+      }
+    },
+    {
+      "exportName": "AndersMaterialDemoMeta",
+      "npm": {
+        "package": "anders_material_demo",
+        "version": "0.1.0"
+      },
+      "url": "/src/plugins/anders_material_demo/build/lowcode/meta.js",
+      "urls": {
+        "default": "/src/plugins/anders_material_demo/build/lowcode/meta.js"
       }
     }
   ],
