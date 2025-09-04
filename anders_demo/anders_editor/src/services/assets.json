@@ -1,0 +1,69 @@
+{
+  "packages": [
+    {
+      "package": "moment",
+      "version": "2.24.0",
+      "urls": [
+        "https://g.alicdn.com/mylib/moment/2.24.0/min/moment.min.js"
+      ],
+      "library": "moment"
+    },
+    {
+      "package": "lodash",
+      "library": "_",
+      "urls": [
+        "https://g.alicdn.com/platform/c/lodash/4.6.1/lodash.min.js"
+      ]
+    },
+    {
+      "title": "antd组件库",
+      "package": "antd",
+      "version": "4.21.4",
+      "urls": [
+        "https://g.alicdn.com/code/lib/antd/4.21.4/antd.min.css",
+        "https://g.alicdn.com/code/lib/antd/4.21.4/antd.min.js"
+      ],
+      "library": "antd"
+    }
+  ],
+  "components": [
+    {
+      "exportName": "AntdLowcodeMaterialsMeta",
+      "npm": {
+        "package": "@alilc/lowcode-materials-antd"
+      },
+      "url": "https://alifd.alicdn.com/npm/@alilc/lowcode-materials-antd@1.0.0/build/lowcode/meta.js",
+      "urls": {
+        "default": "https://alifd.alicdn.com/npm/@alilc/lowcode-materials-antd@1.0.0/build/lowcode/meta.js",
+        "design": "https://alifd.alicdn.com/npm/@alilc/lowcode-materials-antd@1.0.0/build/lowcode/meta.design.js"
+      }
+    }
+  ],
+  "sort": {
+    "groupList": [
+      "精选组件",
+      "原子组件",
+      "低代码组件"
+    ],
+    "categoryList": [
+      "基础元素",
+      "布局容器类",
+      "表格类",
+      "表单详情类",
+      "帮助类",
+      "对话框类",
+      "业务类",
+      "通用",
+      "引导",
+      "信息输入",
+      "信息展示",
+      "信息反馈"
+    ]
+  },
+  "groupList": [
+    "精选组件",
+    "原子组件",
+    "低代码组件"
+  ],
+  "ignoreComponents": {}
+}

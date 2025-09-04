@@ -53,6 +53,36 @@ const AndersMaterialDemoMeta: IPublicTypeComponentMetadata = {
         "title": {
           "label": {
             "type": "i18n",
+            "en-US": "buttonText",
+            "zh-CN": "按钮文本"
+          }
+        },
+        "name": "buttonText",
+        "setter": {
+          "componentName": "StringSetter",
+          "isRequired": false,
+          "initialValue": "点击我"
+        }
+      },
+      {
+        "title": {
+          "label": {
+            "type": "i18n",
+            "en-US": "showCard",
+            "zh-CN": "显示卡片"
+          }
+        },
+        "name": "showCard",
+        "setter": {
+          "componentName": "BoolSetter",
+          "isRequired": false,
+          "initialValue": true
+        }
+      },
+      {
+        "title": {
+          "label": {
+            "type": "i18n",
             "en-US": "ref",
             "zh-CN": "ref"
           }
