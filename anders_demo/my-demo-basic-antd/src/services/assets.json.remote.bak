@@ -58,22 +58,21 @@
       "version": "0.1.0",
       "library": "BizComps",
       "urls": [
-        "/src/plugins/ebeit_remote_table/build/lowcode/render/default/view.js",
-        "/src/plugins/ebeit_remote_table/build/lowcode/render/default/view.css"
+        "https://unpkg.com/ebeit_remote_table@0.1.0/build/lowcode/render/default/view.js",
+        "https://unpkg.com/ebeit_remote_table@0.1.0/build/lowcode/render/default/view.css"
       ],
       "editUrls": [
-        "/src/plugins/ebeit_remote_table/build/lowcode/view.js",
-        "/src/plugins/ebeit_remote_table/build/lowcode/view.css"
+        "https://unpkg.com/ebeit_remote_table@0.1.0/build/lowcode/view.js",
+        "https://unpkg.com/ebeit_remote_table@0.1.0/build/lowcode/view.css"
       ],
       "advancedUrls": {
         "default": [
-          "/src/plugins/ebeit_remote_table/build/lowcode/render/default/view.js",
-          "/src/plugins/ebeit_remote_table/build/lowcode/render/default/view.css"
+          "https://unpkg.com/ebeit_remote_table@0.1.0/build/lowcode/render/default/view.js",
+          "https://unpkg.com/ebeit_remote_table@0.1.0/build/lowcode/render/default/view.css"
         ]
       },
       "advancedEditUrls": {}
     }
-    
   ],
   "components": [
     {
@@ -93,21 +92,21 @@
         "package": "ebeit_remote_table",
         "version": "0.1.0"
       },
-      "url": "/src/plugins/ebeit_remote_table/build/lowcode/meta.js",
+      "url": "https://unpkg.com/ebeit_remote_table@0.1.0/build/lowcode/meta.js",
       "urls": {
-        "default": "/src/plugins/ebeit_remote_table/build/lowcode/meta.js"
+        "default": "https://unpkg.com/ebeit_remote_table@0.1.0/build/lowcode/meta.js"
       },
       "advancedUrls": {
         "default": [
-          "/src/plugins/ebeit_remote_table/build/lowcode/meta.js"
+          "https://unpkg.com/ebeit_remote_table@0.1.0/build/lowcode/meta.js"
         ]
       }
     }
   ],
   "sort": {
-    "groupList": ["精选组件", "原子组件", "ebeit_ui"],
-    "categoryList": ["通用", "导航", "信息输入", "信息展示", "信息反馈", "ebeit_ui"]
+    "groupList": ["精选组件", "原子组件"],
+    "categoryList": ["通用", "导航", "信息输入", "信息展示", "信息反馈"]
   },
-  "groupList": ["精选组件", "原子组件", "ebeit_ui"],
+  "groupList": ["精选组件", "原子组件"],
   "ignoreComponents": {}
 }
